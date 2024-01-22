@@ -27,15 +27,30 @@
      <img id="tamagotchi" src="./Mikey Frames/Mikey Frame 1.svg" alt="Tamagotchi" />
 
     
-    <div id="buttonContainer">
+<div id="buttonContainer">
     <!-- "Feed Bad" -->
-    <button id="feedButtonBad">Feed Bad</button>
+    <button id="feedButtonBad" class="button" data-title="Feed Bad">
+        <span class="button-label">Feed Bad</span>
+    </button>
 
-    <!-- Other buttons with their respective IDs (e.g., feedButtonHealthy, feedButtonEmpty, feedButtonReveal) -->
-    <button id="feedButtonHealthy">Feed Healthy</button>
-    <button id="feedButtonEmpty">Feed Empty</button>
-    <button id="feedButtonReveal">Feed Reveal</button>
+    <!-- "Feed Healthy" -->
+    <button id="feedButtonHealthy" class="button" data-title="Feed Healthy">
+        <span class="button-label">Feed Healthy</span>
+    </button>
+
+    <!-- "Feed Empty" -->
+    <button id="feedButtonEmpty" class="button" data-title="Feed Empty">
+        <span class="button-label">Feed Empty</span>
+    </button>
+
+    <!-- "Feed Reveal" -->
+    <button id="feedButtonReveal" class="button" data-title="Feed Reveal">
+        <span class="button-label">Feed Reveal</span>
+    </button>
 </div>
+
+
+
     <p id="status">Food Level: <span id="foodLevel">0</span></p>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>

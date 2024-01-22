@@ -18,6 +18,18 @@ $(document).ready(function() {
         feedBad: $('#feedButtonBad').text()
     };
 
+    function updateButtonImages() {
+        $.get('/getImageUrls', function(data) {
+            $('#feedButtonHealthy').html('<img src="' + data.healthy + '" alt="Feed Healthy">');
+            $('#feedButtonEmpty').html('<img src="' + data.empty + '" alt="Feed Empty">');
+            $('#feedButtonBad').html('<img src="' + data.bad + '" alt="Feed Bad">');
+            $('#feedButtonReveal').html('<img src="' + data.reveal + '" alt="Feed Reveal">');
+        });
+    }
+
+    // Call to update button images
+    updateButtonImages();
+
 function shuffleButtonsAndNames() {
     const buttonContainer = $("#buttonContainer");
     const buttons = buttonContainer.children();
@@ -29,17 +41,18 @@ function shuffleButtonsAndNames() {
         buttonContainer.append(buttons[j]);
     }
 
-    // Shuffle the names (button text)
-    for (let i = names.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [names[i], names[j]] = [names[j], names[i]];
-    }
+    // // Shuffle the names (button text)
+    // for (let i = names.length - 1; i > 0; i--) {
+    //     const j = Math.floor(Math.random() * (i + 1));
+    //     [names[i], names[j]] = [names[j], names[i]];
+    // }
 
-    // Update button text with shuffled names
-    $('#feedButtonHealthy').text(names[0]);
-    $('#feedButtonEmpty').text(names[1]);
-    $('#feedButtonBad').text(names[2]);
-    $('#feedButtonReveal').text(names[3]);
+    // // Update button text with shuffled names
+    // $('#feedButtonHealthy').text(names[0]);
+    // $('#feedButtonEmpty').text(names[1]);
+    // $('#feedButtonBad').text(names[2]);
+    // $('#feedButtonReveal').text(names[3]);
+    
 }
 
 
@@ -103,25 +116,59 @@ function postFeedAction(feedType) {
     const feedHealthy = function() {
         shuffleButtonsAndNames();
         postFeedAction('feedHealthy');
+        // resetHoverEffect();
     };
 
     const feedEmpty = function() {
         const shuffledNames = shuffleButtonsAndNames();
         postFeedAction('feedEmpty');
+        // resetHoverEffect();
     };
 
-    const feedReveal = function() {
-        $('#feedButtonHealthy').text(originalButtonNames.feedHealthy);
-        $('#feedButtonEmpty').text(originalButtonNames.feedEmpty);
-        $('#feedButtonReveal').text(originalButtonNames.feedReveal);
-        $('#feedButtonBad').text(originalButtonNames.feedBad);
+const feedReveal = function() {
+    // Store original names
+  // Close any existing tooltips
+    $('.tooltip').remove();
 
-        postFeedAction('feedReveal');
+    let originalNames = {
+        feedHealthy: $('#feedButtonHealthy .button-label').text(),
+        feedEmpty: $('#feedButtonEmpty .button-label').text(),
+        feedReveal: $('#feedButtonReveal .button-label').text(),
+        feedBad: $('#feedButtonBad .button-label').text()
     };
+
+    // Create and show tooltips
+    $('.button').each(function() {
+        const tooltipText = $(this).attr('data-title');
+        const $tooltip = $('<span class="tooltip" style="display: none;">' + tooltipText + '</span>');
+        $(this).append($tooltip);
+        $tooltip.fadeIn();
+    });
+
+    // Log the presence of tooltips
+    console.log('Tooltips added');
+
+    // After a delay, hide and remove tooltips
+    setTimeout(() => {
+        $('.tooltip').fadeOut(function() {
+            $(this).remove();
+        });
+
+        // Log the removal of tooltips
+        console.log('Tooltips removed');
+    }, 5000); // 5 seconds delay
+
+    postFeedAction('feedReveal');
+};
+
+
+
+
 
     const feedBad = function() {
         const shuffledNames = shuffleButtonsAndNames();
         postFeedAction('feedBad');
+        // resetHoverEffect();
     };
 
     function updateTamagotchiMood(mood) {
@@ -133,6 +180,10 @@ function postFeedAction(feedType) {
             $tamagotchiImg.removeClass('normal spinning').addClass('upside-down');
         }
     }
+
+    // const resetHoverEffect = () => {
+    //     $('#buttonContainer').removeClass('reveal-names-on-hover');
+    // };
 
     $(document).on('keydown', function(event) {
         if (event.key === 'f' || event.key === 'F') {

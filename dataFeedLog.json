@@ -1,0 +1,3206 @@
+[
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:04.427Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:08.285Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:08.964Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:11.133Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:11.523Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:11.686Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:11.824Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:11.970Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:12.125Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:12.281Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:12.416Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:16.058Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:16.336Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:18.120Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:18.302Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:18.446Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:18.609Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:18.758Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:18.914Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:19.068Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:19.206Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:19.494Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:19.942Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:20.514Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:20.859Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:21.061Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:21.238Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:21.424Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:21.611Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:21.769Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:21.943Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:22.104Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:41.035Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:41.459Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:41.677Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:41.848Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:43.646Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:45.636Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T16:37:46.797Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T17:35:04.329Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T17:35:04.909Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T17:55:50.555Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T17:55:56.014Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T17:56:29.529Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T18:10:18.445Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T18:10:19.687Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T18:10:20.863Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T18:16:59.021Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T18:17:02.134Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-21T18:21:26.669Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:01:58.056Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:02:00.287Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:02:15.625Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:02:23.403Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:02:24.238Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:02:36.902Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:02:39.296Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:02:41.237Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:02:42.407Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:02:43.543Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:02:48.753Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:02:50.902Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:03:15.571Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:03:20.156Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:10:55.754Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:11:00.435Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:11:06.770Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:11:09.796Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:11:27.430Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:11:36.778Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:11:41.504Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:11:43.790Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:11:45.193Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:11:46.622Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:14.830Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:15.762Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:16.210Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:17.779Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:35.676Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:37.244Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:37.886Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:38.976Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:40.399Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:41.832Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:45.543Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:55.676Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:56.060Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:56.290Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:56.472Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:56.637Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:56.797Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:14:56.956Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:16:08.232Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:16:32.869Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:18:14.530Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:18:27.332Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:18:41.372Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:22:38.160Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:22:48.371Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:22:49.808Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:22:50.207Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:22:51.185Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:24:13.591Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:31:33.579Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:32:57.135Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:33:14.751Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:34:50.621Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:34:51.925Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:38:08.395Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:38:09.538Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:38:11.064Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:35.846Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:36.765Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:36.952Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:37.284Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:37.585Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:37.764Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:37.920Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:38.058Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:38.232Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:38.420Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:39.036Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:40.530Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:41.913Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:42.504Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:43.011Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:43.829Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:48.494Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:52.086Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:39:55.464Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:44:18.315Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:44:34.090Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:45:40.233Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:45:48.452Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:45:52.255Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:47:03.608Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:48:00.146Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:49:12.191Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:49:13.879Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:49:14.231Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:52:15.624Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:52:20.479Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:52:20.657Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:52:36.604Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:52:40.346Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:56:05.884Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:56:07.060Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:56:46.642Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:56:51.434Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T07:56:58.354Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:28.231Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:28.954Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:29.970Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:30.144Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:30.282Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:30.425Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:30.588Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:30.750Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:30.904Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:31.067Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:31.225Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:31.364Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:31.522Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:31.652Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:09:31.821Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:11:19.590Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:14:01.752Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:24:52.291Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:24:57.693Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:32:49.823Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:33:16.400Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:33:17.239Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:33:17.412Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:33:17.565Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:33:17.705Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:33:17.852Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:33:17.998Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:39:19.505Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:39:30.075Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:39:34.326Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T08:59:57.506Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:01:32.986Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:01:35.708Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:01:36.190Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:01:36.572Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:01:36.887Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:03:50.864Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:03:51.535Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:03:52.177Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:03:52.749Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:03:53.442Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:03:53.907Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:03:54.780Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:03:55.701Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:03:56.437Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:03:57.881Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:04:00.552Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:04:22.786Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:05:06.030Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:05:07.193Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:05:07.811Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:05:12.466Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:05:13.251Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:05:14.039Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:05:31.546Z"
+  },
+  {
+    "action": "feedBad",
+    "response": "Tamagotchi is very unhappy after a bad meal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:05:32.944Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:12:26.635Z"
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:12:42.703Z"
+  },
+  {
+    "action": "feedReveal",
+    "response": "Tamagotchi is fed with a reveal.",
+    "moodChange": 0
+  },
+  {
+    "action": "feedHealthy",
+    "response": "Tamagotchi is happy and well-fed!",
+    "moodChange": 1,
+    "timestamp": "2024-01-22T09:12:44.837Z"
+  },
+  {
+    "action": "feedEmpty",
+    "response": "Tamagotchi is fed empty.",
+    "moodChange": 0
+  }
+]
