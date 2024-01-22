@@ -16,7 +16,7 @@ const saveData = (data) => {
   fs.writeFileSync('data.json', JSON.stringify(data));
 };
 
-// Initialize and train the neural network
+// initialize and train the neural network
 const network = new brain.NeuralNetwork();
 const trainingData = [
   { input: { healthy: 1, empty: 0, reveal: 0, bad: 0 }, output: { mood: 0.8 } },
@@ -26,7 +26,7 @@ const trainingData = [
 ];
 network.train(trainingData);
 
-// Function to append a log entry to the data log file
+// log entry to the data log file
 const appendToDataLog = (logEntry, dataLogFilePath) => {
     let dataLog = [];
     try {
@@ -38,7 +38,7 @@ const appendToDataLog = (logEntry, dataLogFilePath) => {
     fs.writeFileSync(dataLogFilePath, JSON.stringify(dataLog, null, 2));
 };
 
-// Function to retrieve all logged data
+// retrieve all logged data
 const getAllDataLogEntries = (dataLogFilePath) => {
     try {
         return JSON.parse(fs.readFileSync(dataLogFilePath));
@@ -47,7 +47,7 @@ const getAllDataLogEntries = (dataLogFilePath) => {
     }
 };
 
-// Function to get image URLs from a folder
+// function to get image URLs from a folder
 function getImageUrlsFromFolder(folderName) {
   const directoryPath = path.join(__dirname, 'public', 'images', folderName);
   try {
@@ -59,27 +59,15 @@ function getImageUrlsFromFolder(folderName) {
   }
 }
 
-// Function to randomly select an image from an array
+// function to randomly select an image from an array
 function getRandomImage(imageArray) {
   const randomIndex = Math.floor(Math.random() * imageArray.length);
   return imageArray[randomIndex];
 }
 
 
-// Example arrays of image URLs
-// const healthyImages = ["http://example.com/healthy1.jpg", "http://example.com/healthy2.jpg", /* ... */];
-// const emptyImages = ["http://example.com/empty1.jpg", "http://example.com/empty2.jpg", /* ... */];
-// const badImages = ["http://example.com/bad1.jpg", "http://example.com/bad2.jpg", /* ... */];
-// const revealImages = ["/", "http://example.com/reveal2.jpg", /* ... */];
 
-// Function to randomly select an image from an array
-function getRandomImage(imageArray) {
-  const randomIndex = Math.floor(Math.random() * imageArray.length);
-  return imageArray[randomIndex];
-}
-
-
-// Endpoint to get random image URLs for each button type
+// get random image URLs for each button type
 app.get('/getImageUrls', (req, res) => {
   const healthyImages = getImageUrlsFromFolder('HealthyFood');
   const emptyImages = getImageUrlsFromFolder('EmptyFood');
@@ -96,19 +84,19 @@ app.get('/getImageUrls', (req, res) => {
 
 
 
-// Retrieve all logged data
+// retrieve all logged data
 app.get('/getAllLoggedData', (req, res) => {
     const loggedData = getAllDataLogEntries('dataFeedLog.json');
     res.json(loggedData);
 });
 
-// Endpoint to get Tamagotchi status
+// get Tamagotchi status
 app.get('/status', (req, res) => {
   const data = getData();
   res.json(data);
 });
 
-// Function to predict mood
+// predict mood
 const predictMood = (input) => {
   return network.run(input);
 };
@@ -123,7 +111,7 @@ function postFeedAction(feedType) {
     }, 'json');
 }
 
-// Express route to get a random image from a specific category
+// route to get a random image from a specific category
 
 // app.get('/getRandomImage/:category', (req, res) => {
 //     const category = req.params.category;
@@ -178,7 +166,7 @@ app.post('/feedHealthy', (req, res) => {
 });
 
 
-// Endpoint to feed empty
+// endpoint to feed empty
 app.post('/feedEmpty', (req, res) => {
     let data = getData();
 
@@ -208,7 +196,7 @@ app.post('/feedEmpty', (req, res) => {
 });
 
 
-// Endpoint to feed reveal
+// endpoint to feed reveal
 app.post('/feedReveal', (req, res) => {
     let data = getData();
     data.size = (data.size || 0);
@@ -231,7 +219,7 @@ app.post('/feedReveal', (req, res) => {
 
 
 
-// Endpoint to feed bad
+// endpoint to feed bad
 app.post('/feedBad', (req, res) => {
     let data = getData();
 

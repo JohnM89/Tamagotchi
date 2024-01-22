@@ -27,7 +27,7 @@ $(document).ready(function() {
         });
     }
 
-    // Call to update button images
+    //update button images
     updateButtonImages();
 
 function shuffleButtonsAndNames() {
@@ -41,17 +41,6 @@ function shuffleButtonsAndNames() {
         buttonContainer.append(buttons[j]);
     }
 
-    // // Shuffle the names (button text)
-    // for (let i = names.length - 1; i > 0; i--) {
-    //     const j = Math.floor(Math.random() * (i + 1));
-    //     [names[i], names[j]] = [names[j], names[i]];
-    // }
-
-    // // Update button text with shuffled names
-    // $('#feedButtonHealthy').text(names[0]);
-    // $('#feedButtonEmpty').text(names[1]);
-    // $('#feedButtonBad').text(names[2]);
-    // $('#feedButtonReveal').text(names[3]);
     
 }
 
@@ -91,10 +80,10 @@ function shuffleButtonsAndNames() {
 
 function postFeedAction(feedType) {
     $.post('/' + feedType, function(data) {
-        // Destructure the response data
+       
         const { message, foodLevel, size, mood } = data;
 
-        // Log each property separately
+    
         console.log('Message:', message);
         if (foodLevel !== undefined) {
             console.log('Food Level:', foodLevel);
@@ -104,7 +93,7 @@ function postFeedAction(feedType) {
         }
         console.log('Mood:', mood);
 
-        // Other actions
+      
         fetchStatus();
         startAnimation();
         updateTamagotchiMood(mood);
@@ -116,18 +105,17 @@ function postFeedAction(feedType) {
     const feedHealthy = function() {
         shuffleButtonsAndNames();
         postFeedAction('feedHealthy');
-        // resetHoverEffect();
+        
     };
 
     const feedEmpty = function() {
         const shuffledNames = shuffleButtonsAndNames();
         postFeedAction('feedEmpty');
-        // resetHoverEffect();
+    
     };
 
 const feedReveal = function() {
-    // Store original names
-  // Close any existing tooltips
+  // ensure there are not multiple instances of tooltips
     $('.tooltip').remove();
 
     let originalNames = {
@@ -137,7 +125,7 @@ const feedReveal = function() {
         feedBad: $('#feedButtonBad .button-label').text()
     };
 
-    // Create and show tooltips
+    // tooltips for revealFoods function
     $('.button').each(function() {
         const tooltipText = $(this).attr('data-title');
         const $tooltip = $('<span class="tooltip" style="display: none;">' + tooltipText + '</span>');
@@ -145,18 +133,17 @@ const feedReveal = function() {
         $tooltip.fadeIn();
     });
 
-    // Log the presence of tooltips
     console.log('Tooltips added');
 
-    // After a delay, hide and remove tooltips
+    // delay, hide and remove tooltips
     setTimeout(() => {
         $('.tooltip').fadeOut(function() {
             $(this).remove();
         });
 
-        // Log the removal of tooltips
+    
         console.log('Tooltips removed');
-    }, 5000); // 5 seconds delay
+    }, 5000); // 5 seconds
 
     postFeedAction('feedReveal');
 };
@@ -168,7 +155,7 @@ const feedReveal = function() {
     const feedBad = function() {
         const shuffledNames = shuffleButtonsAndNames();
         postFeedAction('feedBad');
-        // resetHoverEffect();
+
     };
 
     function updateTamagotchiMood(mood) {
@@ -181,9 +168,6 @@ const feedReveal = function() {
         }
     }
 
-    // const resetHoverEffect = () => {
-    //     $('#buttonContainer').removeClass('reveal-names-on-hover');
-    // };
 
     $(document).on('keydown', function(event) {
         if (event.key === 'f' || event.key === 'F') {
