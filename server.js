@@ -32,7 +32,7 @@ const appendToDataLog = (logEntry, dataLogFilePath) => {
     try {
         dataLog = JSON.parse(fs.readFileSync(dataLogFilePath));
     } catch (error) {
-        // File doesn't exist or is empty
+        // if file doesn't exist or is empty
     }
     dataLog.push(logEntry);
     fs.writeFileSync(dataLogFilePath, JSON.stringify(dataLog, null, 2));
@@ -111,21 +111,8 @@ function postFeedAction(feedType) {
     }, 'json');
 }
 
-// route to get a random image from a specific category
 
-// app.get('/getRandomImage/:category', (req, res) => {
-//     const category = req.params.category;
-
-//     // Logic to select and return a random image URL from the specified category
-//     let randomImageUrl = getRandomImageUrlForCategory(category);
-
-//     // Send the image URL as a response
-//     res.json({ imageUrl: randomImageUrl });
-// });
-
-
-
-// Endpoint to feed healthy
+// endpoint to feed healthy
 app.post('/feedHealthy', (req, res) => {
     let data = getData();
     data.foodLevel = (data.foodLevel || 0) + 5;
@@ -136,7 +123,6 @@ app.post('/feedHealthy', (req, res) => {
 
     saveData(data);
 
-    // Append a log entry for this action
     const logEntry = {
         action: 'feedHealthy',
         response: 'Tamagotchi is happy and well-fed!',
@@ -145,7 +131,6 @@ app.post('/feedHealthy', (req, res) => {
     };
     appendToDataLog(logEntry, 'dataFeedLog.json');
 
-    // Define response messages based on mood
     let responseMessages = {
         highMood: "Tamagotchi is happy and well-fed!",
         mediumMood: "Tamagotchi is feeling okay after the meal.",
@@ -170,15 +155,14 @@ app.post('/feedHealthy', (req, res) => {
 app.post('/feedEmpty', (req, res) => {
     let data = getData();
 
-    // Check if the Tamagotchi has any food level left
+    // check if the Tamagotchi has any food level left
     if (data.foodLevel > 0) {
         // Decrement food level by 1
         data.foodLevel -= 1;
 
-        // Input for mood prediction is constant for this feed type
+        // input mood prediction is constant for this feed type
         data.mood = predictMood({ healthy: 0, empty: 1, reveal: 0, bad: 0 }).mood;
 
-        // Log the interaction
         const logEntry = {
             action: 'feedEmpty',
             response: 'Tamagotchi is fed empty.',
@@ -190,7 +174,7 @@ app.post('/feedEmpty', (req, res) => {
 
         res.json({ message: 'Tamagotchi has been fed empty!', foodLevel: data.foodLevel, mood: data.mood });
     } else {
-        // If food level is already at 0, send a success response with no further action
+        // if food level is already at 0, send a success response with no further action
         res.json({ message: 'Tamagotchi has no food left!', foodLevel: data.foodLevel, mood: data.mood });
     }
 });
@@ -204,11 +188,10 @@ app.post('/feedReveal', (req, res) => {
     let input = { healthy: 0, empty: 0, reveal: 1, bad: 0 };
     data.mood = predictMood(input).mood;
 
-    // Log the interaction
     const logEntry = {
         action: 'feedReveal',
         response: 'Tamagotchi is fed with a reveal.',
-        moodChange: data.mood - predictMood(input).mood // Calculate mood change
+        moodChange: data.mood - predictMood(input).mood // calculate mood change
     };
     appendToDataLog(logEntry, 'dataFeedLog.json');
 
@@ -223,14 +206,14 @@ app.post('/feedReveal', (req, res) => {
 app.post('/feedBad', (req, res) => {
     let data = getData();
 
-    // Update food level and size
+    // update food level and size
     data.foodLevel = Math.max(0, (data.foodLevel || 0) - 10);
     data.size = Math.max(0, (data.size || 0) - 10); // Ensuring size doesn't go negative
 
-    // Input for mood prediction is constant for this feed type
+    // input mood prediction is constant for this feed type
     let moodPrediction = predictMood({ healthy: 0, empty: 0, reveal: 0, bad: 1 });
 
-    // Generate a response message based on the mood prediction
+    // generate a response message based on the mood prediction
     let responseMessage = '';
     if (moodPrediction.mood >= 0.8) {
         responseMessage = 'Tamagotchi is upset after a bad meal!';
@@ -244,11 +227,10 @@ app.post('/feedBad', (req, res) => {
 
     data.mood = moodPrediction.mood;
 
-    // Log the interaction
     const logEntry = {
         action: 'feedBad',
         response: responseMessage,
-        moodChange: data.mood - moodPrediction.mood // Calculate mood change
+        moodChange: data.mood - moodPrediction.mood
     };
     appendToDataLog(logEntry, 'dataFeedLog.json');
 
