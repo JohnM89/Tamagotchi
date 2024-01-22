@@ -46,6 +46,7 @@ Enjoy!
  ## To Do; 
  - implement brain.js training off previous input and implement that in a way that gives some kind of feedback
  - UI design needed
+ - fix button image selection (currently only as page refreshes)
  - More animation for the mouse
  - Button icons should be replaced (with transparent backgrounds)
  - buttonReveal might be best situated off to the side
