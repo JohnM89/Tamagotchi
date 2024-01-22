@@ -41,6 +41,11 @@ function shuffleButtonsAndNames() {
         buttonContainer.append(buttons[j]);
     }
 
+    // not the best way to accomplish this but will do for now
+    setTimeout(function () {
+        location.reload();
+    }, 3100); //
+
     
 }
 
