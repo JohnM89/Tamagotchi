@@ -7,11 +7,15 @@ const app = express();
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// // Mikey backend Game Logic & CRUD Start
+
+// function to read and parse game data from a JSON file
 const getData = () => {
   let data = fs.readFileSync('data.json');
   return JSON.parse(data);
 };
 
+// function to write data to a JSON file
 const saveData = (data) => {
   fs.writeFileSync('data.json', JSON.stringify(data));
 };
@@ -24,28 +28,48 @@ const trainingData = [
   { input: { healthy: 0, empty: 0, reveal: 1, bad: 0 }, output: { mood: 0.5 } },
   { input: { healthy: 0, empty: 0, reveal: 0, bad: 1 }, output: { mood: 0.2 } },
 ];
-network.train(trainingData);
 
+// load network state if exists, else train with initial data
+if (fs.existsSync('networkState.json')) {
+    loadNetworkState();
+} else {
+    network.train(trainingData);
+}
 // log entry to the data log file
 const appendToDataLog = (logEntry, dataLogFilePath) => {
-    let dataLog = [];
-    try {
-        dataLog = JSON.parse(fs.readFileSync(dataLogFilePath));
-    } catch (error) {
-        // if file doesn't exist or is empty
-    }
-    dataLog.push(logEntry);
-    fs.writeFileSync(dataLogFilePath, JSON.stringify(dataLog, null, 2));
+  let dataLog = [];
+  try {
+      dataLog = JSON.parse(fs.readFileSync(dataLogFilePath));
+  } catch (error) {
+      // if file doesn't exist or is empty
+  }
+  dataLog.push(logEntry);
+  fs.writeFileSync(dataLogFilePath, JSON.stringify(dataLog, null, 2));
 };
 
-// retrieve all logged data
-const getAllDataLogEntries = (dataLogFilePath) => {
-    try {
-        return JSON.parse(fs.readFileSync(dataLogFilePath));
-    } catch (error) {
-        return [];
-    }
+
+const retrainNetwork = () => {
+    const loggedData = JSON.parse(fs.readFileSync('dataFeedLog.json'));
+    // convert logged data to the format suitable for training
+    const formattedData = loggedData.map(entry => {
+        return {
+            input: entry.input, 
+            output: entry.output // should be the observed mood after feeding
+        };
+    });
+
+    network.train(formattedData, {
+        iterations: 1000, // adjust as needed
+        errorThresh: 0.005, //same
+    });
 };
+
+// retrain the network every 24 hours
+setInterval(() => {
+    retrainNetwork();
+    saveNetworkState();
+}, 24 * 60 * 60 * 1000); // 24 hours in milliseconds
+
 
 // function to get image URLs from a folder
 function getImageUrlsFromFolder(folderName) {
@@ -59,58 +83,30 @@ function getImageUrlsFromFolder(folderName) {
   }
 }
 
+const saveNetworkState = () => {
+    const networkState = JSON.stringify(network.toJSON());
+    fs.writeFileSync('networkState.json', networkState);
+};
+
+const loadNetworkState = () => {
+    const networkState = JSON.parse(fs.readFileSync('networkState.json'));
+    network.fromJSON(networkState);
+};
+
+if (fs.existsSync('networkState.json')) {
+    loadNetworkState();
+} else {
+    // utilizing the existing trainingData for initial training
+    network.train(trainingData);
+}
+
+
+
 // function to randomly select an image from an array
 function getRandomImage(imageArray) {
   const randomIndex = Math.floor(Math.random() * imageArray.length);
   return imageArray[randomIndex];
 }
-
-
-
-// get random image URLs for each button type
-app.get('/getImageUrls', (req, res) => {
-  const healthyImages = getImageUrlsFromFolder('HealthyFood');
-  const emptyImages = getImageUrlsFromFolder('EmptyFood');
-  const badImages = getImageUrlsFromFolder('BadFood');
-  const revealImages = getImageUrlsFromFolder('RevealFood');
-
-  res.json({
-    healthy: getRandomImage(healthyImages),
-    empty: getRandomImage(emptyImages),
-    bad: getRandomImage(badImages),
-    reveal: getRandomImage(revealImages)
-  });
-});
-
-
-
-// retrieve all logged data
-app.get('/getAllLoggedData', (req, res) => {
-    const loggedData = getAllDataLogEntries('dataFeedLog.json');
-    res.json(loggedData);
-});
-
-// get Tamagotchi status
-app.get('/status', (req, res) => {
-  const data = getData();
-  res.json(data);
-});
-
-// predict mood
-const predictMood = (input) => {
-  return network.run(input);
-};
-
-
-function postFeedAction(feedType) {
-    $.post('/feed', { feedType: feedType }, function(data) {
-        console.log(data);
-        fetchStatus();
-        startAnimation();
-        updateTamagotchiMood(data.mood);
-    }, 'json');
-}
-
 
 // endpoint to feed healthy
 app.post('/feedHealthy', (req, res) => {
@@ -125,16 +121,16 @@ app.post('/feedHealthy', (req, res) => {
 
     const logEntry = {
         action: 'feedHealthy',
-        response: 'Tamagotchi is happy and well-fed!',
+        response: 'Mikey is happy and well-fed!',
         moodChange: data.mood - (data.mood - 1),
         timestamp: new Date().toISOString(),
     };
     appendToDataLog(logEntry, 'dataFeedLog.json');
 
     let responseMessages = {
-        highMood: "Tamagotchi is happy and well-fed!",
-        mediumMood: "Tamagotchi is feeling okay after the meal.",
-        lowMood: "Tamagotchi is not very happy with that food."
+        highMood: "Mikey is happy and well-fed!",
+        mediumMood: "Mikey is feeling okay after the meal.",
+        lowMood: "Mikey is not very happy with that food."
     };
 
     let responseMessage = '';
@@ -155,7 +151,7 @@ app.post('/feedHealthy', (req, res) => {
 app.post('/feedEmpty', (req, res) => {
     let data = getData();
 
-    // check if the Tamagotchi has any food level left
+    // check if the Mikey has any food level left
     if (data.foodLevel > 0) {
         // Decrement food level by 1
         data.foodLevel -= 1;
@@ -165,17 +161,17 @@ app.post('/feedEmpty', (req, res) => {
 
         const logEntry = {
             action: 'feedEmpty',
-            response: 'Tamagotchi is fed empty.',
+            response: 'Mikey is fed empty.',
             moodChange: data.mood - predictMood({ healthy: 0, empty: 1, reveal: 0, bad: 0 }).mood // Calculate mood change
         };
         appendToDataLog(logEntry, 'dataFeedLog.json');
 
         saveData(data);
 
-        res.json({ message: 'Tamagotchi has been fed empty!', foodLevel: data.foodLevel, mood: data.mood });
+        res.json({ message: 'Mikey has been fed empty!', foodLevel: data.foodLevel, mood: data.mood });
     } else {
         // if food level is already at 0, send a success response with no further action
-        res.json({ message: 'Tamagotchi has no food left!', foodLevel: data.foodLevel, mood: data.mood });
+        res.json({ message: 'Mikey has no food left!', foodLevel: data.foodLevel, mood: data.mood });
     }
 });
 
@@ -190,14 +186,14 @@ app.post('/feedReveal', (req, res) => {
 
     const logEntry = {
         action: 'feedReveal',
-        response: 'Tamagotchi is fed with a reveal.',
+        response: 'Mikey is fed with a reveal.',
         moodChange: data.mood - predictMood(input).mood // calculate mood change
     };
     appendToDataLog(logEntry, 'dataFeedLog.json');
 
     saveData(data);
 
-    res.json({ message: 'Tamagotchi has been fed with a reveal!', size: data.size, mood: data.mood });
+    res.json({ message: 'Mikey has been fed with a reveal!', size: data.size, mood: data.mood });
 });
 
 
@@ -216,13 +212,13 @@ app.post('/feedBad', (req, res) => {
     // generate a response message based on the mood prediction
     let responseMessage = '';
     if (moodPrediction.mood >= 0.8) {
-        responseMessage = 'Tamagotchi is upset after a bad meal!';
+        responseMessage = 'Mikey is upset after a bad meal!';
     } else if (moodPrediction.mood >= 0.6) {
-        responseMessage = 'Tamagotchi is not happy about the bad meal.';
+        responseMessage = 'Mikey is not happy about the bad meal.';
     } else if (moodPrediction.mood >= 0.4) {
-        responseMessage = 'Tamagotchi is disappointed with the bad meal.';
+        responseMessage = 'Mikey is disappointed with the bad meal.';
     } else {
-        responseMessage = 'Tamagotchi is very unhappy after a bad meal.';
+        responseMessage = 'Mikey is very unhappy after a bad meal.';
     }
 
     data.mood = moodPrediction.mood;
@@ -238,6 +234,40 @@ app.post('/feedBad', (req, res) => {
 
     res.json({ message: responseMessage, foodLevel: data.foodLevel, size: data.size, mood: data.mood });
 });
+
+// express middleware for serving static files from the public folder
+app.use(express.static(path.join(__dirname, 'public')));
+
+// get random image URLs for each button type
+app.get('/getImageUrls', (req, res) => {
+  const healthyImages = getImageUrlsFromFolder('HealthyFood');
+  const emptyImages = getImageUrlsFromFolder('EmptyFood');
+  const badImages = getImageUrlsFromFolder('BadFood');
+  const revealImages = getImageUrlsFromFolder('RevealFood');
+
+  res.json({
+    healthy: getRandomImage(healthyImages),
+    empty: getRandomImage(emptyImages),
+    bad: getRandomImage(badImages),
+    reveal: getRandomImage(revealImages)
+  });
+});
+
+
+// get Mikey's status
+app.get('/status', (req, res) => {
+  const data = getData();
+  res.json(data);
+});
+
+// predict mood
+const predictMood = (input) => {
+  return network.run(input);
+};
+
+
+// // Mikey backend Game Logic & CRUD End
+
 
 
 
